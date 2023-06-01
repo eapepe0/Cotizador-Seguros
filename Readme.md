@@ -4,7 +4,7 @@ Proyecto realizado en **React** , utilice **Tailwind** , **useState**, **useCont
 
 ## Deploy
 
-[Link a la pagina](https://guitar-la-remix-puce.vercel.app/)
+[Link a la pagina](https://luminous-pothos-0eef30.netlify.app)
 
 ## Capturas
 
