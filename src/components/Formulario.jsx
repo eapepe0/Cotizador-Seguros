@@ -28,7 +28,7 @@ export default function Formulario() {
             <form onSubmit={handleSubmit}>
                 {/* MARCA */}
                 <div className="my-5">
-                    <label htmlFor="" className="block mb-3 font-bold text-gray-400 uppercase">Marca</label>
+                    <label htmlFor="" className="block mb-3 font-bold text-black-400 uppercase">Marca</label>
                     <select name="marca" id="" className="w-full p-3 border border-gray-200" onChange={e => handleChangeDatos(e)} value={datos.marca}>
                         <option value="">-- Selecciona Marca--</option>
                         {MARCAS.map(marca => (
@@ -38,7 +38,7 @@ export default function Formulario() {
                 </div>
                 {/* AÑO */}
                 <div className="my-5">
-                    <label htmlFor="" className="block mb-3 font-bold text-gray-400 uppercase">Año</label>
+                    <label htmlFor="" className="block mb-3 font-bold ext-black-400 uppercase">Año</label>
                     <select name="year" id="" className="w-full p-3 border border-gray-200" onChange={e => handleChangeDatos(e)} value={datos.year}>
                         <option value="">-- Selecciona el año --</option>
                         {YEARS.map(year => (
@@ -48,7 +48,7 @@ export default function Formulario() {
                 </div>
                 {/* PLANES */}
                 <div className="my-5">
-                    <label className="block mb-3 font-bold text-gray-400 uppercase">
+                    <label className="block mb-3 font-bold text-black-400 uppercase">
                         Elige un plan
                     </label>
                     <div className="flex gap-3 items-center">
